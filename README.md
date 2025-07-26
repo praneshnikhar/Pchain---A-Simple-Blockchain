@@ -63,7 +63,6 @@ Each block contains:
 ### 1. Block Creation
 Each block's hash is calculated from its contents, including:
 ```java
-// Pseudocode representation
 blockHash = SHA256(previousHash + timestamp + data + nonce)
 ```
 
@@ -75,7 +74,7 @@ The first block in the chain (genesis block) uses `"0"` as its previous hash ref
 ### 3. Proof of Work Mining Process
 When adding new blocks:
 ```java
-// Mining loop pseudocode
+// Mining loop
 while (!hash.startsWith("0".repeat(difficulty))) {
     nonce++;
     hash = calculateHash();
@@ -190,26 +189,6 @@ blockchain.addBlock(new Block("Transaction: Bob pays Charlie 5 coins", previousH
 // Customize the genesis block
 Block genesisBlock = new Block("Genesis Block", "0");
 ```
-
-## Contributing
-
-Contributions are welcome! This project is designed for learning, so improvements that enhance educational value are especially appreciated.
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Create a Pull Request
-
-## Disclaimer
-
-**Important**: Pchain is designed for **educational purposes only**. It is not intended for:
-- Production use
-- Handling real monetary value
-- Public blockchain deployment
-- Commercial applications
-
-This implementation lacks many security features and optimizations required for real-world blockchain applications.
 
 ## License
 

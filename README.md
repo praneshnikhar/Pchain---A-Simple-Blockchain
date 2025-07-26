@@ -16,7 +16,7 @@ A beginner-friendly, proof-of-concept blockchain implementation written in Java.
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
-- [License](#license)
+- [License](#about)
 
 ## About
 

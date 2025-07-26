@@ -2,22 +2,6 @@
 
 A beginner-friendly, proof-of-concept blockchain implementation written in Java. This project serves as a hands-on introduction to the principles that power blockchains and cryptocurrencies, making complex technology accessible for learners and developers exploring distributed ledger concepts.
 
-## Table of Contents
-
-- [About](#about)
-- [Key Features](#key-features)
-- [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Learning Outcomes](#learning-outcomes)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [Disclaimer](#disclaimer)
-- [License](#about)
-
 ## About
 
 Pchain is a **basic blockchain** implementation—not a production-ready cryptocurrency or platform, but an educational, minimal codebase designed to illuminate the fundamental mechanics behind blockchains. By building and experimenting with Pchain, you'll discover how digital ledgers, cryptographic hashing, and mining work under the hood.
